@@ -1,0 +1,29 @@
+.nav-link{
+    color: white;
+}
+
+.nav-link :hover{
+    color: black;
+
+}
+
+.nav-link.active {
+    color: white;
+
+}
+
+.nav-link.active:hover {
+    color : black;
+}
+
+body {
+    background: linear-gradient(to right, #ff9933, #ffc000, #ffcc00); /* Adjust colors as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /* Overlay */
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background-blend-mode: overlay;
+}
+
